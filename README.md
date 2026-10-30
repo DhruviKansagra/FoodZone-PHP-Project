@@ -299,19 +299,19 @@ Screenshots showcase the actual application interface while running locally.
 
 ### Home Page
 
-![FoodZone Home Page](screenshots/home.png)
+![FoodZone Home Page](screenshots/home.jpeg)
 
 ### Food Menu
 
-![FoodZone Food Menu](screenshots/foods.png)
+![FoodZone Food Menu](screenshots/foods.jpeg)
 
 ### Category Management
 
-![FoodZone Category Management](screenshots/category-management.png)
+![FoodZone Category Management](screenshots/category-management.jpeg)
 
 ### Food Management
 
-![FoodZone Food Management](screenshots/food-management.png)
+![FoodZone Food Management](screenshots/food-management.jpeg)
 
 *Note: Upload the actual screenshot files to the `screenshots/` directory in your repository. Ensure the filenames and extensions match the Markdown image paths exactly.*
 
