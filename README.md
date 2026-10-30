@@ -95,7 +95,7 @@ PHP handles server-side processing, while MySQL stores and manages application d
 
 FoodZone follows a basic client-server architecture.
 
-```text
+text
              Customer / Administrator
                        |
                        v
@@ -127,7 +127,7 @@ FoodZone follows a basic client-server architecture.
                        |
                        v
                   Web Browser
-```
+
 
 ### Application Workflow
 
@@ -143,7 +143,7 @@ FoodZone follows a basic client-server architecture.
 
 The following is a representative structure. Ensure the filenames match your actual repository.
 
-```text
+text
 FoodZone/
 ├── index.php
 ├── about.php
@@ -176,7 +176,7 @@ FoodZone/
 │   └── food-management.png
 ├── database.sql
 └── README.md
-```
+
 
 *Note: This is a representative structure. Update the folder and file names according to your actual project.*
 
@@ -193,9 +193,9 @@ FoodZone/
 
 Run this command in your terminal:
 
-```bash
+bash
 git clone https://github.com/DhruviKansagra/FoodZone.git
-```
+
 
 Alternatively, open the repository on GitHub and select **Code → Download ZIP**.
 
@@ -203,9 +203,9 @@ Alternatively, open the repository on GitHub and select **Code → Download ZIP*
 
 Extract the project into:
 
-```text
+text
 C:\xampp\htdocs\FoodZone
-```
+
 
 Ensure that the PHP files and asset folders are inside the project directory.
 
@@ -241,7 +241,7 @@ Open the project's database connection PHP file and verify the connection settin
 
 Example for a default local XAMPP setup:
 
-```php
+php
 <?php
 
 $conn = new mysqli(
@@ -258,7 +258,7 @@ if ($conn->connect_error) {
 $conn->set_charset("utf8mb4");
 
 ?>
-```
+
 
 **Important:** Replace `your_database_name` with the actual database name used by your project. Your existing PHP pages must use the same connection variable expected by your code.
 
@@ -268,9 +268,9 @@ The empty password is only an example for a default local XAMPP installation. Ne
 
 Open the following URL in your browser:
 
-```text
+text
 http://localhost/FoodZone/
-```
+
 
 The exact starting page depends on your project's file structure.
 
@@ -318,7 +318,7 @@ The project uses a MySQL database. The database name and table definitions shoul
 
 ### Database Relationship
 
-```text
+text
              Categories
                   |
                   | One category can contain
@@ -344,7 +344,6 @@ The project uses a MySQL database. The database name and table definitions shoul
                   |
                   v
             Customer Messages
-```
 
 The `c_id` field in the `Foods` table associates food items with categories. Cart and order records are associated with customers and food items.
 
@@ -438,17 +437,17 @@ Suggestions and improvements are welcome.
 1. Fork the repository.
 2. Create a feature branch:
 
-```bash
+bash
 git checkout -b feature/your-feature
-```
+
 
 3. Implement and test your changes.
 4. Commit your changes:
 
-```bash
+bash
 git add .
 git commit -m "Describe your changes"
-```
+
 
 5. Push your branch and open a pull request.
 
